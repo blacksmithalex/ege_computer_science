@@ -2,7 +2,7 @@
 def price(trash, finish, N):
   S = 0
   for i in range(N):
-    S += 3 * min(abs(finish - i), N - abs(finish - i)) * trash[i]
+    S += min(abs(finish - i), N - abs(finish - i)) * trash[i]
   return S
 
 file = open('107_27_A.txt')
