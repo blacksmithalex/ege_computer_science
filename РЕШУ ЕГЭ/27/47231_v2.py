@@ -5,7 +5,7 @@ elems = []
 for _ in range(N):
     x, num = [int(x) for x in file.readline().split()]
     num = ceil(num / 36)
-    elems.append([x, num])
+    elems.append([x, num])ч
 answers = [0] * N
 leftsum = 0
 rightsum = 0
